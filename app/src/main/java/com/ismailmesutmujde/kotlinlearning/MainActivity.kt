@@ -226,5 +226,43 @@ class MainActivity : AppCompatActivity() {
         } else {
             println(">=50")
         }
+
+        // SWITCH - WHEN
+        println("----------Switch & When----------")
+
+        val day = 3
+        var dayString = ""
+        /*
+        if (day == 1) {
+            dayString = "Monday"
+        } else if (day == 2) {
+            dayString = "Tuesday"
+        } else if (day == 3) {
+            dayString = "Wednesday"
+        } else if (day == 4) {
+            dayString = "Thursday"
+        } else if (day == 5) {
+            dayString = "Friday"
+        } else if (day == 6) {
+            dayString = "Saturday"
+        } else if (day == 7){
+            dayString = "Sunday"
+        }
+        println(dayString)
+        */
+
+        when(day) {
+            1 -> dayString = "Monday"
+            2 -> dayString = "Tuesday"
+            3 -> dayString = "Wednesday"
+            4 -> dayString = "Thursday"
+            5 -> dayString = "Friday"
+            6 -> dayString = "Saturday"
+            7 -> dayString = "Sunday"
+            else -> dayString = ""
+        }
+        println(dayString)
+
+
     }
 }
