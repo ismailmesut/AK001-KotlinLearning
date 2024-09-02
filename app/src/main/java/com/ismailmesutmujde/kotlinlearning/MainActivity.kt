@@ -296,5 +296,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         myStringArrayList.forEach { println(it) }
+
+        // While Loop
+        var j = 0
+        while (j < 10) {
+            println(j)
+            j = j + 1
+        }
     }
 }
