@@ -167,5 +167,22 @@ class MainActivity : AppCompatActivity() {
         myStringSet.add("ismail")
         println(myStringSet.size)
 
+        // Map - HashMap
+        println("----------Map----------")
+        // Key-Value
+        val fruitArray = arrayOf("Apple","Banana")
+        val caloriesArray = arrayOf(100,150)
+        println("${fruitArray[0]} : ${caloriesArray[0]}")
+
+        val fruitCalorieMap = hashMapOf<String, Int>()
+        fruitCalorieMap.put("Apple",100)
+        fruitCalorieMap.put("Banana",150)
+        println(fruitCalorieMap["Apple"])
+
+        val myHashMap = HashMap<String, String>()
+
+        val myNewHasMap = hashMapOf<String, Int>("A" to 1, "B" to 2, "C" to 3)
+        println(myNewHasMap["C"])
+
     }
 }
