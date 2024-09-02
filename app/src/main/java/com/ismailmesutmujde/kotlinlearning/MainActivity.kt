@@ -263,6 +263,38 @@ class MainActivity : AppCompatActivity() {
         }
         println(dayString)
 
+        // LOOPS
+        println("----------Loops----------")
 
+        // For Loop
+        val myArrayOfNumbers = arrayOf(0,3,6,9,12,15,18,21,24,27,30,33,36)
+        val q = myArrayOfNumbers[0] / 3 * 5
+        println(q)
+
+        for (number in myArrayOfNumbers) {
+            val z = number / 3 * 5
+            println(z)
+        }
+
+        for (i in myArrayOfNumbers.indices) {
+            val qz = myArrayOfNumbers[i] / 3 * 5
+            println(qz)
+        }
+
+        for (b in 0..9) {
+            println(b)
+        }
+
+        val myStringArrayList = ArrayList<String>()
+        myStringArrayList.add("Araba")
+        myStringArrayList.add("Ev")
+        myStringArrayList.add("Kariyer")
+        myStringArrayList.add("Eş")
+
+        for (str in myStringArrayList) {
+            println(str)
+        }
+
+        myStringArrayList.forEach { println(it) }
     }
 }
