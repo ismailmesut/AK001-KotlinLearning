@@ -46,5 +46,22 @@ class MainActivity : AppCompatActivity() {
         val b : Int = 23
         println(b/2)
 
+        // Long
+        var myLong : Long = 100
+        println(myLong)
+
+        // Double & Float
+        val pi = 3.14
+        println(pi*2.0)
+
+        val myFloat = 3.14f
+        println(myFloat*2)
+
+        var myAge2 : Double
+        myAge2 = 23.0
+        println(myAge2/2)
+
+        // camelCase
+        // snake_case
     }
 }
