@@ -120,8 +120,13 @@ class MainActivity : AppCompatActivity() {
         myArray.set(1, "Kirk Hammett")
         println(myArray[1])
 
-        myArray[4] = "ismail"
-        println(myArray[4])
+        val numberArray = arrayOf(1,2,3,4,5)
+        println(numberArray[4])
+        val myNewArray = doubleArrayOf(1.0,2.0,3.0)
+
+        val mixedArray = arrayOf("ismail", 5)
+        println(mixedArray[0])
+        println(mixedArray[1])
 
     }
 }
