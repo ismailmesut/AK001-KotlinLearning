@@ -31,5 +31,20 @@ class MainActivity : AppCompatActivity() {
         val name = "James"
         val a = 5
 
+        // Integer
+        var myAge = 35
+        println("myAge: " + myAge)
+        var result = age / 7 * 5
+        println(result)
+
+        // Defining -> Tanımlama
+        var myInteger : Int
+        // Initialize -> ilk değerini atama
+        myInteger = 10
+        myInteger = 20
+
+        val b : Int = 23
+        println(b/2)
+
     }
 }
