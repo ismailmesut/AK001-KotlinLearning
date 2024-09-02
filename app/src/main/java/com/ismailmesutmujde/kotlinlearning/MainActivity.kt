@@ -105,5 +105,23 @@ class MainActivity : AppCompatActivity() {
         var input = "10"
         var inputInteger = input.toInt()
         println(inputInteger*2)
+
+        // COLLECTIONS
+        // Arrays
+        println("----------Arrays----------")
+        val myArray = arrayOf("James", "Kirk", "Rob", "Lars")
+
+        // index
+        println(myArray[0])
+        myArray[0] = "James Hetfield"
+        println(myArray[0])
+        println(myArray)
+
+        myArray.set(1, "Kirk Hammett")
+        println(myArray[1])
+
+        myArray[4] = "ismail"
+        println(myArray[4])
+
     }
 }
