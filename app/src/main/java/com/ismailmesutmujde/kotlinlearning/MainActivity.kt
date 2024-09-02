@@ -213,5 +213,18 @@ class MainActivity : AppCompatActivity() {
         println(10%3)
         println(10%4)
 
+        // IF CONTROL
+        println("----------If Control----------")
+
+        val myNumberAge = 52
+        if(myNumberAge < 30) {
+            println("< 30")
+        } else if (myNumberAge >= 30 && myNumberAge < 35) {
+            println("30-40")
+        } else if (myNumberAge >= 40 && myNumberAge < 50) {
+            println("40-50")
+        } else {
+            println(">=50")
+        }
     }
 }
