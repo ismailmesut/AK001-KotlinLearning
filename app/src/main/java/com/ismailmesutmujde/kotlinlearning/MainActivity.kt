@@ -184,5 +184,34 @@ class MainActivity : AppCompatActivity() {
         val myNewHasMap = hashMapOf<String, Int>("A" to 1, "B" to 2, "C" to 3)
         println(myNewHasMap["C"])
 
+        // OPERATORS
+        println("----------Operator----------")
+        var m = 5
+        println(m)
+        m = m + 1
+        println(m)
+        m++
+        println(m)
+        m--
+        println(m)
+
+        var n = 7
+        println(n > m)
+        // &&
+        // ||
+        println(n > m && 2 > 1)
+        println(n > m && 1 > 2)
+        println(n > m || 1 > 2)
+
+        println(10+2)
+        println(10-2)
+        println(10*2)
+        println(10/2)
+
+        // Remainder->Kalan
+        println(10%2)
+        println(10%3)
+        println(10%4)
+
     }
 }
