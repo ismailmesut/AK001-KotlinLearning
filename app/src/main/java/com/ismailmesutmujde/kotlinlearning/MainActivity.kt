@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         println("hello kotlin")
 
         // VARIABLES && CONSTANTS
-
+        println("----------Variables & Constants----------")
         // Variables (Değişkenler) -> var
         // var tanımlanan bir değişken sonradan değiştirilebilir.
 
@@ -28,9 +28,11 @@ class MainActivity : AppCompatActivity() {
 
         // Constants (Sabitler) -> val
         // val tanımlanan bir değişken sonradan değiştirilemez.
-        val name = "James"
+        val name2 = "James"
         val a = 5
 
+        // INTEGER & LONG
+        println("----------Integer & Long----------")
         // Integer
         var myAge = 35
         println("myAge: " + myAge)
@@ -50,10 +52,14 @@ class MainActivity : AppCompatActivity() {
         var myLong : Long = 100
         println(myLong)
 
-        // Double & Float
+
+        // DOUBLE & FLOAT
+        println("----------Double & Float----------")
+        // double
         val pi = 3.14
         println(pi*2.0)
 
+        // float
         val myFloat = 3.14f
         println(myFloat*2)
 
@@ -63,5 +69,17 @@ class MainActivity : AppCompatActivity() {
 
         // camelCase
         // snake_case
+
+        // STRING
+        println("----------String----------")
+        val myString = "ismail mesut müjde"
+        println(myString)
+
+        val name = "James"
+        val surname = "Hetfield"
+        val fullname = name + " " + surname
+        println(fullname)
+        val larsName : String = "Lars"
+        println(myString.capitalize())
     }
 }
