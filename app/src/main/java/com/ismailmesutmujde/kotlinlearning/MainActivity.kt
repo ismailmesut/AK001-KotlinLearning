@@ -81,5 +81,19 @@ class MainActivity : AppCompatActivity() {
         println(fullname)
         val larsName : String = "Lars"
         println(myString.capitalize())
+
+        // BOOLEAN
+        println("----------Boolean----------")
+        var myBoolean : Boolean = true
+        myBoolean = false
+
+        var isAlive = true
+
+        // <, >, <=, >=, ==, !=, &&(AND), ||(OR)
+
+        println(3<5)
+        println(6<3)
+        println(3==3)
+        println(4!=5)
     }
 }
