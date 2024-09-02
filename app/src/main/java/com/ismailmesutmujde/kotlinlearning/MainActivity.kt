@@ -95,5 +95,15 @@ class MainActivity : AppCompatActivity() {
         println(6<3)
         println(3==3)
         println(4!=5)
+
+        // CONVERSION
+        println("----------Conversion----------")
+        var myNumber = 5
+        var myLongNumber = myNumber.toLong()
+        println(myLongNumber)
+
+        var input = "10"
+        var inputInteger = input.toInt()
+        println(inputInteger*2)
     }
 }
